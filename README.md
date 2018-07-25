@@ -1,24 +1,17 @@
-# README
+MOOCademy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projet semaine 4, jour 3 !
+Goupe Sandrine Le Breton, Rémi Samson et Romain Saillour
 
-Things you may want to cover:
+Ruby version 2.5.1
 
-* Ruby version
+Le but de ce pojet est de créer une plateforme d'apprentissage en ligne. Il y a plein de cours. Chaque cours a un titre et une description. Enfin, chaque cours a plusieurs leçons, qui ont un titre et un body
 
-* System dependencies
+Vous trouverz dans le Gemfile toutes les Gems utilisées lors de ce porojet. Pour lancer le programme faites : "bundle install", depuis votre terminal/console
 
-* Configuration
+Data structure :
+Deux tables
+  - courses
+  - lessons
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ENJOY :)

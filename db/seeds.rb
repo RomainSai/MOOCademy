@@ -1,16 +1,12 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#on utilise la Gem faker
 require 'faker'
 
+#creation de 5 lignes dans la table Course grace a la gem Faker
 5.times do
   course = Course.create(title: Faker::Coffee.blend_name, description: Faker::Coffee.notes)
 end
 
+#creation de 20 lignes dans la table Lesson grace a la gem Faker
 20.times do
   lesson = Lesson.create(title: Faker::Coffee.variety, body: Faker::Coffee.notes, course_id: Faker::Number.between(1, 5))
 end
